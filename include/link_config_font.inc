@@ -1,0 +1,2 @@
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu:400,400italic,500" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet" type="text/css">	
