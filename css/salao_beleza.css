@@ -1,0 +1,897 @@
+/*
+
+
+	LAYOUT E ALINHAMENTOS 
+
+
+*/
+
+blockquote
+{
+	margin: .5em;
+}
+
+footer
+{
+	background-image: url(link_degrade_baixo.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	text-align: center;
+	margin-top: 1em;
+}
+	footer #logo
+	{
+		display: inline-block;
+		width: 100%;
+		margin-top: -1em;
+	}
+
+		footer #logo a
+		{
+			display: inline-block;
+			height: 42px;
+			margin-bottom: .7em; 
+			width: 220px;
+		}
+			@media screen and (min-width: 800px) {	footer #logo a 	{	height: 53px; width: 280px;	} 	}
+			@media screen and (min-width: 900px) {	footer #logo a 	{	height: 57px; width: 300px; 	} 	}
+
+			footer #logo h1
+			{
+				display: none;
+			}
+
+	footer nav
+	{
+		padding: 1em 0;
+	}
+		footer nav ul li
+		{
+			display: inline;
+		}
+
+		footer nav .sociais_face, footer nav .sociais_inst, footer nav .sociais_yout
+		{
+			display: inline-block;
+			height: 2em;
+			width: 2em;
+		}
+
+		footer nav .sociais_face span, footer nav .sociais_inst span, footer nav .sociais_yout span
+		{
+			display: none;
+		}
+
+	footer #endereco
+	{
+		padding: 1em 0;
+	}
+
+		footer #endereco p
+		{
+			margin: 0;
+		}
+
+	footer #fique_ligado
+	{
+		padding: 0 1em;
+	}
+
+		footer #fique_ligado button
+		{
+			padding: .2em 1em;
+		}
+
+		footer #fique_ligado form input
+		{
+			margin: .5em 0;
+		}
+
+		footer #fique_ligado h2
+		{
+			margin: 1em 0 0 0;
+		}
+
+		footer #fique_ligado p
+		{
+			margin: 0;
+		}
+
+		footer #brainstorming
+		{
+			padding: .5em;
+		}
+			footer #brainstorming p
+			{
+				margin: 0;
+			}
+
+header 
+{
+	padding: 1em 0;
+	z-index: 100;
+}
+	@media screen and (min-width: 850px) { 	header	{	padding: 1em 5%;	}	}
+	@media screen and (min-width: 950px) { 	header	{	padding: 1em 10%;	}	}	
+
+	header nav
+	{
+		display: inline-block;
+		padding: 0 5%;
+		text-align: center;
+		width: 90%;
+	}
+		@media screen and (min-width: 850px) { 	header nav	{	float: right; padding: 0; text-align: right; width: 60%;	}	}
+
+		header nav ul
+		{
+		}
+
+			header nav ul li 
+			{
+			}
+			@media screen and (min-width: 400px) {	header nav ul li {	display: inline;	}	}
+
+				header nav ul li a
+				{
+					border-radius: .3em;
+					display: inline-block;
+					margin-bottom: .3em;
+					padding: .3em;
+					width: 90%;
+				}
+					@media screen and (min-width: 400px) {	header nav ul li a	{	margin: 0 1% .3em; 	width: 40%;	} 	}
+					@media screen and (min-width: 600px) {	header nav ul li a	{	width: 20%;		} 	}
+					@media screen and (min-width: 850px) {
+						header nav ul li a
+						{
+							border-radius: 0;
+							padding: 3em .5em;
+							margin: -2.2em 0 .3em;
+							width: inherit;
+						}
+					}
+
+					header nav ul li:last-child a
+					{
+						margin-bottom: 0;
+					}
+
+	header #logo
+	{
+		display: inline-block;
+		text-align: center;
+		width: 100%;
+	}
+		@media screen and (min-width: 850px) {	header #logo	{	text-align: left;	width: 35%;		} 	}
+
+		header #logo a
+		{
+			display: inline-block;
+			height: 42px;
+			margin-bottom: .7em; 
+			width: 220px;
+		}
+			@media screen and (min-width: 850px) {	header #logo a 	{	margin-bottom: 0; height: 53px; width: 280px;	} 	}
+			@media screen and (min-width: 900px) {	header #logo a 	{	height: 57px; width: 300px; 	} 	}
+
+			header #logo h1
+			{
+				display: none;
+			}
+
+nav
+{
+}
+
+	nav ul
+	{
+		margin: 0;
+		padding: 0;
+	}
+
+#banner
+{
+	text-align: center;
+	width: 100%;
+}
+	@media screen and (min-width: 500px) {	#banner	{	height: 400px; text-align: right;	} 	}
+	@media screen and (min-width: 900px) {	#banner	{	margin: 0 10%;	width: 80%;} 	}
+
+	#banner img
+	{
+		width: 100%;
+	}
+		@media screen and (min-width: 500px) {	#banner img	{	display: none;	} 	}
+
+	#banner h2
+	{
+		display: block;
+		margin: -.15em 0 0 0;
+		padding: 0 1em;
+	}
+		@media screen and (min-width: 500px) {
+			#banner h2
+			{
+				display: inline-block;
+				padding: 0 0;
+				margin: 3.7em 1em;
+			}
+		}
+		@media screen and (min-width: 800px) { 	#banner h2 	{	margin: 3.2em 1em;	} 	}
+
+		#banner h2 span
+		{
+			display: inline-block;
+			padding: .2em .2em;
+		}
+			@media screen and (min-width: 500px) {
+				#banner h2 span
+				{
+					display: inline-block;
+					padding: .2em .5em;
+					margin: 0 0 0 40%;
+				}
+			}
+
+
+#principal
+{
+	padding: 1em 5%;
+	text-align: center;
+}
+	@media screen and (min-width: 900px) {	#principal	{ 	padding: 1em 10%;	} }
+
+	#principal img
+	{
+		width: 100%;
+	}
+
+	#principal #col_01, #principal #col_02, #principal #col_03
+	{
+		display: inline-block;
+		vertical-align: top;
+		width: 100%;
+	}
+		@media screen and (min-width: 600px) {
+			#principal #col_02, #principal #col_03	{ 	width: 48.5%;	} }
+
+		@media screen and (min-width: 800px) {
+			#principal #col_01, #principal #col_02, #principal #col_03	{ 	width: 31.5%;		} }	
+
+		#principal #col_02, #principal #col_03
+		{
+			margin-top: 1em; 
+		}
+
+		@media screen and (min-width: 800px) {
+			#principal #col_02, #principal #col_03	{ 	margin-top: 0;	} }	
+
+	#principal #col_01
+	{
+	}
+		@media screen and (min-width: 800px) {	#principal #col_01	{ 	margin-right: 2%;	} }	
+
+		#principal #col_01 .anuncio_01 img
+		{
+			border-radius: .5em;
+		}
+
+	#principal #col_02
+	{
+		margin-right: 2%;
+	}
+
+		#principal #col_02 .aviso
+		{
+		}
+
+			#principal #col_02 .aviso h2
+			{
+				padding: 0 .5em;
+				margin: .5em 0;
+			}
+
+			#principal #col_02 .aviso h3
+			{
+				margin: 0;
+				padding: .5em;
+				text-align: left;
+			}
+
+			#principal #col_02 .aviso h3.off
+			{
+				margin: 0 20% .5em;
+				padding: .2em 0;
+				text-align: center;
+				width: 60%;
+			}
+
+			#principal #col_02 .aviso p
+			{
+				clear: both;
+				margin: 1.5em 0 0; 
+				padding: 0 .5em;
+			}
+
+			#principal #col_02 .aviso .nota
+			{
+				float: right;
+				margin: -4.9em .5em 0 0;
+				width: 4.5em;
+			}
+
+				#principal #col_02 .aviso .nota span
+				{
+					display: block;
+				}
+
+					#principal #col_02 .aviso .nota span:nth-child(1)
+					{
+						padding: -.5em 0 0;
+					}
+
+		#principal #col_02 .anuncio_02
+		{
+			margin-top: 1em;
+			padding: 0 1em;
+		}
+
+			#principal #col_02 .anuncio_02 p
+			{
+				width: 80%;
+				margin: .5em 10%;
+			}
+
+				#principal #col_02 .anuncio_02 p span
+				{
+					margin-top: .5em;
+					padding: .3em 0;
+					border-width: .18em 0 .18em 0;
+					display: block;
+				}
+
+		#principal #col_02 .testemonial
+		{
+			margin-top: 1em;
+		}
+			#principal #col_02 .testemonial p
+			{
+				width: 80%;
+				margin: .5em 10%;
+			}			
+				#principal #col_02 .testemonial p span
+				{
+					display: block;
+				}
+
+	#principal #col_03
+	{
+	}
+
+		#principal #col_03 #calendario
+		{
+			padding: 1em;
+		}
+
+			#principal #col_03 #calendario h2
+			{
+				margin: 0 0 .5em;
+			}
+
+			#principal #col_03 #calendario table
+			{
+				width: 100%;
+			}
+
+			#principal #col_03 #calendario .eventos
+			{
+			}
+
+				#principal #col_03 #calendario .eventos ul
+				{
+					margin: .5em 0 0 0;
+					padding: 0;
+				}
+
+				#principal #col_03 #calendario .eventos ul:first-child
+				{
+					padding: .5em 0;
+					border-width: .2em 0;
+				}
+
+				#principal #col_03 #calendario .eventos h4
+				{
+					margin: 1em 0 0;
+				}
+
+
+		#principal #col_03 .conheca
+		{
+			margin-top: 1em;
+		}
+
+			#principal #col_03 .conheca a img
+			{
+				border-width: .15em;
+				margin: 0 10% 1em;
+				padding: .3em;
+				width: 75%;
+			}
+				
+
+.brd_amarelo, .brd_amarelo_esc, .brd_pink, .brd_pink_esc, .brd_cinz, .brd_cinz_esc
+{
+	border: .2em solid;
+	border-radius: .5em;
+}
+
+.img_tab	
+{
+	display: none;
+}
+	@media screen and (min-width: 450px) {	.img_tab	{ 	display: inherit;	} }
+	@media screen and (min-width: 800px) {	.img_tab	{ 	display: none;		} }	
+
+.img_mob	
+{
+	display: inherit;
+}
+	@media screen and (min-width: 450px) {	.img_mob	{ 	display: none;	} }
+
+.img_dsk
+{
+	display: none;
+}
+	@media screen and (min-width: 800px) {	.img_dsk	{ 	display: inherit;	} }	
+
+
+
+.logo
+{
+	margin: 1em 0;
+}
+
+
+/*
+
+
+
+	CORES E FONTES
+
+	- - - - - - - - - - - - -  - -
+
+	FFF482 - AMARELO CLARO
+	FED27A - AMARELO ESCURO
+	EDEDED - CINZA CLARO
+	706F6F - CINZA ESCURO
+	E5006D - PINK
+	B1004D - PINK ESCURO
+
+*/
+
+body
+{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 16px;
+}
+
+blockquote
+{
+	font-family: 'Indie Flower', cursive;
+	font-size: 1.5em;
+	quotes: "“ " " ”" "‘ " " ’";
+}
+
+blockquote:before {
+    content: open-quote;
+    color: white;
+}
+blockquote:after {
+    content: close-quote;
+    color: white;
+}
+
+h2
+{
+	color: #E5006D;
+}
+
+footer 
+{
+	background-image: url(link_degrade_cima.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+	footer #logo
+	{
+	}
+		footer #logo a
+		{
+			background-image: url(logo_salao_beleza.jpg);
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: 95% 95%;
+		}
+
+	footer #endereco
+	{
+	}
+		footer #endereco p
+		{
+			color: white;
+		}
+
+	footer #fique_ligado
+	{
+		color: white;
+	}
+
+		footer #fique_ligado button
+		{
+			background-color: #FFF482;
+			border: 0;
+			border-radius: .3em;
+			color: #B1004D;
+		}
+
+		footer #fique_ligado form input
+		{
+			border: 0;
+			border-radius: .3em;
+		}
+
+		footer #fique_ligado h2
+		{
+			color: white;
+			font-size: 1.2em;
+			font-weight: 400;
+		}
+
+		footer #fique_ligado p
+		{
+			font-size: .8em;
+		}
+
+		footer #brainstorming
+		{
+		}
+			footer #brainstorming p
+			{
+				color: white;
+				font-size: .8em;
+			}
+				footer #brainstorming p a
+				{
+					color: white;
+					text-decoration: none;
+				}
+				footer #brainstorming p a:hover
+				{
+					text-decoration: underline;
+				}
+
+
+header 
+{
+	background-image: url(link_degrade_cima.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+	header nav
+	{
+	}
+		header nav ul li a
+		{
+			background-color: white;
+			color: #E5006D;
+			font-size: 1.2em;
+		}
+			@media screen and (min-width: 850px) {	header nav ul li a	{	background-color: inherit; color: white;	} 	}
+
+			header #logo h1
+			{
+				display: none;
+			}
+
+			header nav ul li a:hover
+			{
+				background-color: #FFF482;
+			}
+			@media screen and (min-width: 850px) {
+				header nav ul li a:hover
+				{
+					background-color: inherit;
+					background-image: url(link_flag_amarela.png);
+					background-size: 100% 100%;
+					background-repeat: no-repeat;
+					color: #E5006D;
+				}
+			}
+
+
+	header #logo
+	{
+	}
+		header #logo a
+		{
+			background-image: url(logo_salao_beleza.jpg);
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: 95% 95%;
+		}
+
+nav
+{
+}
+	nav ul
+	{
+		list-style-type: none;
+	}
+		nav ul li a
+		{
+			text-decoration: none;
+		}
+
+#banner
+{
+}
+	@media screen and (min-width: 500px) {
+		#banner
+		{
+			background-image: url(../img/banner/link_banner_001.jpg);
+			background-position: center top;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+	}
+
+	#banner h2
+	{
+		background-color: #E5006D;
+	}
+		@media screen and (min-width: 500px) {	#banner h2	{	background-color: inherit; font-size: 2em;	} 	}
+
+		#banner h2 span
+		{
+			color: white;
+		}
+			@media screen and (min-width: 500px) {	#banner h2 span	{	background-color: #E5006D;	} 	}
+
+
+#principal
+{
+}
+	#principal #col_02
+	{
+	}
+
+		#principal #col_02 .aviso
+		{
+		}
+
+			#principal #col_02 .aviso h2
+			{
+				font-size: 2em;
+			}
+
+			#principal #col_02 .aviso h3
+			{
+				background-color: #B1004D;
+				color: white;
+				font-size: 1.5em;
+				letter-spacing: -.1em;
+			}
+				@media screen and (min-width: 260px) {	#principal #col_02 .aviso h3	{ 	letter-spacing: 0;	} }
+
+			#principal #col_02 .aviso h3.off
+			{
+				background-color: #B1004D;
+				font-weight: 400;
+				color: white;
+			}
+
+			#principal #col_02 .aviso .nota
+			{
+				background-color: inherit;
+				background-image: url(link_flag_pink.png);
+				background-size: 100% 100%;
+				background-repeat: no-repeat;
+				color: white;
+				font-size: .7em;
+			}
+
+				#principal #col_02 .aviso .nota span
+				{
+				}
+
+					#principal #col_02 .aviso .nota span:nth-child(2)
+					{
+						font-size: 2em;
+						font-weight: 400;
+						line-height: .8em;
+					}
+
+		#principal #col_02 .anuncio_02
+		{
+			background-color: #FED27A;
+			color: #B1004D;
+		}
+
+			#principal #col_02 .anuncio_02 p
+			{
+			}
+
+				#principal #col_02 .anuncio_02 p span
+				{
+					border-color: #B1004D;
+					border-style: solid;
+				}
+
+
+		#principal #col_02 .testemonial
+		{
+			background-color: #E5006D;
+			color: white;
+		}
+			#principal #col_02 .testemonial p
+			{
+				background-color: #B1004D;
+			}
+
+				#principal #col_02 .testemonial p span
+				{
+					font-size: .8em;
+				}
+
+		#principal #col_03
+		{
+		}
+
+			#principal #col_03 #calendario
+			{
+			}
+
+					#principal #col_03 #calendario table thead tr
+					{
+						background-color: #EDEDED;
+						color: #E5006D;
+					}
+						#principal #col_03 #calendario table thead tr td:first-child
+						{
+							background-color: #E5006D;
+							color: white;
+							border-radius: .5em 0 0 .5em
+						}
+
+						#principal #col_03 #calendario table thead tr td:last-child
+						{
+							border-radius: 0 .5em .5em 0;
+						}
+
+				#principal #col_03 #calendario table tbody
+				{
+				}
+
+					#principal #col_03 #calendario table tbody tr
+					{
+						font-size: 1.2em;
+					}
+
+						#principal #col_03 #calendario table tbody tr td:first-child
+						{
+							color: #E5006D;
+						}
+
+						#principal #col_03 #calendario table tbody tr td.cal_fer
+						{
+							background-color: #E5006D;
+							color: white;
+						}
+
+						#principal #col_03 #calendario table tbody tr td.cal_marca
+						{
+							background-color: #FCE5F1;
+						}
+
+				#principal #col_03 #calendario .eventos
+				{
+				}
+
+					#principal #col_03 #calendario .eventos ul
+					{
+						list-style-type: none;
+					}
+
+					#principal #col_03 #calendario .eventos ul:first-child
+					{
+						border-color: #E5006D;
+						border-style: solid;
+					}
+
+						#principal #col_03 #calendario .eventos li span
+						{
+							color: #E5006D;
+						}
+
+					#principal #col_03 #calendario .eventos h4
+					{
+						color: #E5006D;
+					}
+
+
+			#principal #col_03 .conheca
+			{
+			}
+
+				#principal #col_03 .conheca a 
+				{
+					color: #E5006D;
+					text-decoration: none;
+				}
+
+					#principal #col_03 .conheca a:hover
+					{
+						text-decoration: underline;
+					}
+
+					#principal #col_03 .conheca a img
+					{
+						border-style: solid;
+						border-color: white;
+					}
+
+					#principal #col_03 .conheca a:hover img
+					{
+						border-color: #E5006D;
+					}
+
+.brd_amarelo		{	border-color: #FFF482;	}
+.brd_amarelo_esc	{	border-color: #FED27A;	}
+.brd_pink			{	border-color: #E5006D;	}
+.brd_pink_esc		{	border-color: #B1004D;	}
+.brd_cinz			{	border-color: #EDEDED;	}
+.brd_cinz_esc		{	border-color: #706F6F;	}
+
+
+.sociais_face, .sociais_inst, .sociais_yout
+{
+	background-image: url(link_sociais.png);
+	background-repeat: no-repeat;
+	background-size: 300%;
+}
+
+.sociais_face		{	background-position: top left;			}
+.sociais_face:hover	{	background-position: bottom left;		}
+.sociais_inst		{	background-position: top center;		}
+.sociais_inst:hover	{	background-position: bottom center;		}
+.sociais_yout		{	background-position: top right;			}
+.sociais_yout:hover	{	background-position: bottom right;		}
+
+.mapa
+{
+	display: inline-block;
+	width: 1.5em;
+	height: 2.5em;
+	background-image: url(link_mapa.png);
+	background-repeat: no-repeat;
+	background-size: 200%;
+}
+
+.mapa				{	background-position: top left;			}		
+.mapa:hover			{	background-position: top right;			}
+
+.mapa span
+{
+	display: none;
+}
+
+.whats
+{
+	height: 1em;
+	position: relative;
+	bottom: -.2em;
+	margin-left: .5em;
+}
